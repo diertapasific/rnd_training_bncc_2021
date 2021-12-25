@@ -342,17 +342,6 @@ footer .texts .icons img{
     padding-left: 0px;
 }
 
-footer .texts h1:hover{
-    opacity:0.5;
-    cursor: pointer;
-    animation: 0.5s;
-}
-
-footer  #nohover h1:hover{
-    opacity:1;
-    cursor: default;
-}
-
 footer .texts h3:hover{
     opacity:0.5;
     cursor: pointer;
