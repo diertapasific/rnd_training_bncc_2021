@@ -1,25 +1,54 @@
 body{
+    object-fit: cover;
     margin:0px;
     padding:0px;
+    box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(255, 255, 255);
 }
 
+.home{
+    height: 500px;
+    background-image: url("Introduction.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 200px;
+    padding-left: 100px;
+
+}
+
+.home-info{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: 600;
+}
+.description{
+    font-size: 25px;
+}
+
 .nav-bar{
-    background-color: rgb(151,151,151);
+    /* background-color: rgb(151,151,151); */
+    background-color: #FFCF88;
     display: flex;
     height: 80px;
     width: 100%;
     box-shadow: 1px 2px 10px black;
 }
 
-.nav-logo img{
+.nav-logo > img{
     width: 40px;
-    height: 40px; 
+    height: 40px;
     padding: 20px 50px;
 }
 
-.nav-logo img:hover{
+.nav-logo > img:hover{
     animation: 0.5s;
     opacity: 0.5;
     cursor: pointer;
@@ -29,7 +58,7 @@ body{
     padding: 27px 20px;
 }
 
-.nav-search-bar input{
+.nav-search-bar>input{
     border: none;
     border-radius: 6px;
     height: 26px;
@@ -38,32 +67,32 @@ body{
     padding-right: 270px;
 }
 
-.nav-cart img{
+.nav-cart > img{
     width: 30px;
     height: 30px;
     padding: 25px 20px;
 }
 
-.nav-cart img:hover{
+.nav-cart > img:hover{
     animation: 0.5s;
     opacity: 0.5;
     cursor: pointer;
 }
 
-.nav-profile-btn img{
+.nav-profile-btn > img{
     width: 30px;
     height: 30px;
     padding: 25px 0px;
     padding-left: 20px;
 }
 
-.nav-profile-btn img:hover{
+.nav-profile-btn > img:hover{
     animation: 0.5s;
     opacity: 0.5;
     cursor: pointer;
 }
 
-.nav-sign-in-btn a{
+.nav-sign-in-btn > a{
     text-decoration: none;
     padding: 0px 30px;
     font-size: 20px;
@@ -73,7 +102,7 @@ body{
     color: black;
 }
 
-.nav-sign-in-btn a:hover{
+.nav-sign-in-btn > a:hover{
     animation: 0.5s;
     color: rgba(0,0,0,0.5);
 }
@@ -106,17 +135,18 @@ body{
     }
 }
 
-.categories h1{
+.categories>h1{
     padding-top: 150px;
 }
 
 .categories .category-box{
     display: block;
-    margin-left: 110px; 
+    margin-left: 110px;
 }
 
 .categories .category{
-    background-color: rgb(151,151,151);
+    /* background-color: rgb(151,151,151); */
+    background-color: #FFCF88;
     border-radius: 20px;
     width: 200px;
     height: 200px;
@@ -131,8 +161,8 @@ body{
 }
 
 .category img{
-    height:50px;
-    width: 50px;
+    height:100px;
+    width: 100px;
     padding:50px 50px;
 }
 
